@@ -1036,7 +1036,7 @@ The `MessagePackSerializer` class is the entry point of MessagePack for C#. Stat
 | `Deserialize<T>` | Deserializes a MessagePack binary to an object graph. Async variant for Stream available. Non-generic overloads available. |
 | `SerializeToJson` | Serialize a MessagePack-compatible object graph to JSON instead of MessagePack. Useful for debugging. |
 | `ConvertToJson` | Convert MessagePack binary to JSON. Useful for debugging.  |
-| `ConvertFromJson` | Convert JSON to a MessagePack binary. |
+| `Microsoft.NET.StringTools` | Convert JSON to a MessagePack binary. |
 
 The `MessagePackSerializer.Typeless` class offers most of the same APIs as above, but removes all type arguments from the API, forcing serialization to include the full type name of the root object. It uses the `TypelessContractlessStandardResolver`. Consider the result to be a .NET-specific MessagePack binary that isn't readily compatible with MessagePack deserializers in other runtimes.
 

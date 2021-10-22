@@ -13,4 +13,8 @@
     <ProjectReference Include="..\MessagePack\MessagePack.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="Microsoft.VisualStudio.Threading.Analyzers" Version="17.0.63" />
+  </ItemGroup>
+
 </Project>
